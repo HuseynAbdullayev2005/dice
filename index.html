@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="reset.css" />
+
+</head>
+
+<body>
+  <main>
+    <div class="game">
+      <div class="player player_0 player_active">
+        <div class="player_0_upper">
+          <h2 class="name" id="name_0">Player 1</h2>
+          <p class="score" id="score_0">43</p>
+        </div>
+        <div class="player_0_lower">
+          <div class="current">
+            <p class="current_label">Current</p>
+            <p class="current_score" id="current_0">0</p>
+          </div>
+        </div>
+      </div>
+      <div class="player player_1">
+        <div class="player_1_upper">
+          <h2 class="name" id="name_1">Player 2</h2>
+          <p class="score" id="score_1">24</p>
+        </div>
+        <div class="player_1_lower">
+          <div class="current">
+            <p class="current_label">Current</p>
+            <p class="current_score" id="current_1">0</p>
+          </div>
+        </div>
+      </div>
+       <img src="dice-5.png" alt="Playing dice" class="dice" /> 
+       <button class="btn btn_new"> New game</button>
+    <button class="btn btn_roll"> Roll dice</button>
+    <button class="btn btn_hold">Hold</button> 
+    </div>
+
+  </main>
+  <script defer src="script.js"></script>
+</body>
+
+</html>

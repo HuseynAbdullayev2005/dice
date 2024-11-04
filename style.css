@@ -1,0 +1,134 @@
+body {
+  margin-top: 60px;
+  background: rgb(196, 23, 126);
+  background: linear-gradient(90deg, rgba(196, 23, 126, 1) 0%, rgba(233, 10, 97, 1) 35%, rgba(195, 13, 65, 1) 74%, rgba(255, 0, 56, 1) 100%);
+}
+
+main {}
+
+.game {
+  border-radius: 5px;
+  margin-top: 100px;
+  width: 60%;
+  margin: auto;
+  height: 80vh;
+  border: 1px solid black;
+  display: flex;
+position: relative;
+
+
+}
+
+.player_0 {
+  opacity: 1;
+  background-color: rgb(163, 135, 135);
+  padding: 30px 50px;
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player_0_upper {
+  margin: 0 auto;
+
+}
+
+.player_0_upper p {
+  color: red;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top:20px ;
+}
+
+.current {
+  border: 1px solid black;
+  padding: 30px;
+  width: 60%;
+  margin: auto;
+}
+
+.current_label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.current_score {
+  font-size: 24px;
+  margin-left:  20px; ;
+}
+
+.player_active {
+  opacity: 1;
+}
+
+
+.player_1 {
+  opacity: 0.5;
+  background-color: rgb(163, 135, 135);
+  padding: 30px 50px;
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player_1_upper {
+  margin: 0 auto;
+
+}
+
+.player_1_upper p {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top:20px ;
+}
+
+
+.btn_roll{
+  position: absolute;
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btn_new{
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btn_hold{
+  padding: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.dice{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+img{
+  width: 10%;
+}
+
+.name{
+  color: rgb(56, 56, 56);
+}
